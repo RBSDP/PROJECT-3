@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Oswald&display=swap');
+
+*{
+    background-color: #2B2922;
+    font-family: Montserrat;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    margin-left: 150px;
+    margin-right: 0;
+    color: #fff;
+}
+.list-item{
+    margin-left: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    
+}
+.button-small{
+    margin-left: -150px;
+}
+.logo{
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bottom-image{
+    width: 100%;
+    height: 250px;
+
+}
+.image-section-botton{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.maincontent{
+    display: grid;
+    grid-template-columns: 800px 1fr;
+}
+.leftcontent{
+    margin: auto;
+    font-size: 80px;
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 30px;
+    color: #fff;
+}
+.rightcontent{
+    margin: auto;
+    margin-right: 150px;
+    color: #fff;
+    line-height: 30px;
+}
+.button-small{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#2B2922 ;
+    border-radius: 10px;
+    font-weight: 800;
+    color: #A77B06;
+    border-color:#A77B06 ;
+}
+.maincontent{
+    margin-top: 50px;
+}
